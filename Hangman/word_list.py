@@ -1,4 +1,4 @@
-word_list = [
+wordlist = [
     "albatross", "ant", "anteater", "apple", "banana", "bat", "bear", "beaver", "carrot", "cat",
     "caterpillar", "crocodile", "dolphin", "dog", "dromedary", "duck", "eagle", "elephant", "elephantine", "elephant seal",
     "ferret", "falcon", "flamingo", "fox", "gazelle", "giraffe", "gorilla", "hamster", "hippopotamus", "hyena",
