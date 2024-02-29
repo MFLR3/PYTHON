@@ -1,11 +1,7 @@
 # Hangman game
 import random
-words = [
-    "apple", "banana", "cat", "dog", "elephant", "fish", "grape", "house", 
-    "iguana", "jacket", "kiwi", "lion", "monkey", "nut", "orange", "pear", 
-    "queen", "rabbit", "snake", "tiger", "umbrella", "vase", "watermelon", 
-    "xylophone", "yak", "zebra"
-]
+import word_list
+words = word_list.words
 
 gallows = ["+---+\n" +
             "|   |\n" +
