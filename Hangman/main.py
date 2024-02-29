@@ -50,3 +50,6 @@ elif(errors == 7):
     print(gallows[-1])
     print(" ")
     print(f"Secret word was {secret_word_str}")
+
+exit_text = input("Press enter to exit > ")
+
