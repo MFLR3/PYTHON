@@ -1,63 +1,11 @@
 # Hangman game
 import random
+import random
 import word_list
+import Hangman_Gallows
 words = word_list.wordlist
 
-gallows = ["+---+\n" +
-            "|   |\n" +
-            "    |\n" +
-            "    |\n" +
-            "    |\n" +
-            "    |\n" +
-            "=========\n",
-
-            "+---+\n" +
-                    "|   |\n" +
-                    "O   |\n" +
-                    "    |\n" +
-                    "    |\n" +
-                    "    |\n" +
-                    "=========\n",
-
-            "+---+\n" +
-                    "|   |\n" +
-                    "O   |\n" +
-                    "|   |\n" +
-                    "    |\n" +
-                    "    |\n" +
-                    "=========\n",
-
-            " +---+\n" +
-                    " |   |\n" +
-                    " O   |\n" +
-                    "/|   |\n" +
-                    "     |\n" +
-                    "     |\n" +
-                    " =========\n",
-
-            " +---+\n" +
-                    " |   |\n" +
-                    " O   |\n" +
-                    "/|\\  |\n" + 
-                    "     |\n" +
-                    "     |\n" +
-                    " =========\n",
-
-            " +---+\n" +
-                    " |   |\n" +
-                    " O   |\n" +
-                    "/|\\  |\n" +
-                    "/    |\n" +
-                    "     |\n" +
-                    " =========\n",
-
-            " +---+\n" +
-                    " |   |\n" +
-                    " O   |\n" +
-                    "/|\\  |\n" +
-                    "/ \\  |\n" +
-                    "     |\n" +
-                    " =========\n"]
+gallows = Hangman_Gallows.gallows
 
 print("Welcome to the Hangman game")
 secret_word_str = words[random.randint(0, len(words) - 1)]
@@ -94,7 +42,7 @@ while(errors < 7):
     print("")
     if(len(guessed_letters) == len(set(secret_word))):
         break    
-      
+
 if(len(guessed_letters) == len(set(secret_word))):
     print(f"Congratulations, you guessed {secret_word_str} correctly")
 elif(errors == 7):
