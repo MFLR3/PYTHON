@@ -1,7 +1,7 @@
 # Hangman game
 import random
 import word_list
-words = word_list.words
+words = word_list.wordlist
 
 gallows = ["+---+\n" +
             "|   |\n" +
