@@ -2,7 +2,7 @@
 ## Concept taken from the '100 Days of Code: The Complete Python Pro Bootcamp' by Angela Yu on Udemy. - https://www.udemy.com/course/100-days-of-code
 
 main.py is my attempt at the exercise excluding lines 1-3.
-This is a refactored attempt of a Coffee Machine program found here: 
+This is a refactored attempt of a Coffee Machine program found here: https://github.com/MFLR3/PYTHON/tree/main/CoffeeMachine
 
 
 ### Performs the following:
