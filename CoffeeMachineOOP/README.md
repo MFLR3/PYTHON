@@ -4,6 +4,8 @@
 main.py is my attempt at the exercise excluding lines 1-3.
 This is a refactored attempt of a Coffee Machine program found here: https://github.com/MFLR3/PYTHON/tree/main/CoffeeMachine
 
+All other py files are taken from the '100 Days of Code: The Complete Python Pro Bootcamp' and are not my code. 
+This is to demonstrate my ability to work with classes and objects in Python.
 
 ### Performs the following:
 
