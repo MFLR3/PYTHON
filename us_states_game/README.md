@@ -15,7 +15,7 @@ This is based on the quiz game taken from: https://www.sporcle.com/games/g/state
 4. If user guess is in 50_states.csv file and not in correct_guesses list:
 - appends user guess to correct_guesses list
 - gets x and y values for correct US state from 50_states.csv
-- Converts x and y values into Int data type and create position tuple
+- Converts x and y values into Int data type and creates position tuple
 - Creates Turtle object for writing
 - Using Turtle object, writes correct US state using position tuple.
 - Adds 1 to correct_answers_amount 
