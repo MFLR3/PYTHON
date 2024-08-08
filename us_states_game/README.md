@@ -18,7 +18,8 @@ This is based on the quiz game taken from: https://www.sporcle.com/games/g/state
 - Converts x and y values into Int data type and creates position tuple
 - Creates Turtle object for writing
 - Using Turtle object, writes correct US state using position tuple.
-- Adds 1 to correct_answers_amount 
+- Adds 1 to correct_answers_amount
+5. Creates csv file of all states you missed. 
 
 ### Potential updates
 1. Add a success window
