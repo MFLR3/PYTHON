@@ -14,8 +14,7 @@ correct_guesses = []
 data = pandas.read_csv("50_states.csv")
 
 states = data["state"].to_list()
-
-print(states)
+missing_states = data
 
 is_game_on = True
 while is_game_on:
@@ -41,15 +40,18 @@ while is_game_on:
 
         correct_answers_amount += 1
 
-missing_states = data
+    for guess in correct_guesses:
+        missing_states = missing_states.drop(missing_states[missing_states["state"] == guess].index)
 
-for guess in correct_guesses:
-    print("Guess: ", guess)
-    print(data[data.state == guess])
-
-    missing_states = missing_states.drop(missing_states[missing_states["state"] == guess].index)
-
-missing_states.to_csv("./missing_states.csv")
-
+    missing_states.to_csv("./missing_states.csv")
 
 screen.exitonclick()
+
+# TODO:
+# 1. Convert the guess to Title case
+# 2. Check if the guess is among the 50 states
+# 3. Write correct guesses onto the map
+# 4. Use a loop to allow the user to keep guessing
+# 5. Record the correct guesses in a list
+# 6. Keep track of the score
+# 7. Make csv file with all missing states
