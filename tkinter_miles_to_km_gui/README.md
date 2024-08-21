@@ -7,7 +7,7 @@ main.py is entirely my attempt at the challenge.
 
 1. Using grid layout for gui elements
 2. Provides labels for text
-3. Includes input field.
-4. Includes calculate button which performs calculate method.
-5. Outputs converted km into label.
+3. Includes input field
+4. Includes calculate button which performs calculate method
+5. Outputs converted km into label
 
