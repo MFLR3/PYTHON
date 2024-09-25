@@ -17,7 +17,6 @@ random_quote = random.choice(quotes)
 if weekday == 2:
 
     with smtplib.SMTP("smtp.gmail.com") as connection:
-        # secure connection
         connection.starttls()
         connection.login(user=SENDER_EMAIL, password=SENDER_PASSWORD)
         connection.sendmail(
